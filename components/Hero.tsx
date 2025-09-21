@@ -39,7 +39,7 @@ export default function Hero() {
       <div className="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="md:w-1/2 mt-10 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 dark:text-white mb-4">
-            Hi, I'm <span className="text-blue-600 dark:text-blue-400">Beka</span>
+            Hi, I&apos;m <span className="text-blue-600 dark:text-blue-400">Beka</span>
           </h1>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-700 dark:text-gray-300 mb-6 h-12">
             {displayText}<span className="animate-pulse">|</span>

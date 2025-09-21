@@ -11,11 +11,11 @@ export default function About() {
             <div className="md:w-1/2">
               <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Who I Am</h3>
               <p className="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-                I'm a passionate full-stack developer with over 3 years of experience building web applications. 
+                I&apos;m a passionate full-stack developer with over 3 years of experience building web applications. 
                 I love turning complex problems into simple, beautiful, and intuitive solutions.
               </p>
               <p className="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-                When I'm not coding, you can find me hiking, reading tech blogs, or experimenting with new frameworks 
+                When I&apos;m not coding, you can find me hiking, reading tech blogs, or experimenting with new frameworks 
                 and technologies. I believe in continuous learning and staying updated with the latest industry trends.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-8">

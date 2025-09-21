@@ -45,7 +45,7 @@ interface Skill {
             My Skills
           </h2>
           <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
-            I've worked with a variety of technologies and continue to expand my skill set.
+            I&apos;ve worked with a variety of technologies and continue to expand my skill set.
           </p>
           
           {/* Filters */}
