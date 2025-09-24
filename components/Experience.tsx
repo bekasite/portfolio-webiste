@@ -10,14 +10,14 @@ interface ExperienceItem {
   
   export default function Experience() {
     const experiences: ExperienceItem[] = [
-    //   {
-    //     id: 1,
-    //     role: 'Senior Full-Stack Developer',
-    //     company: 'Tech Innovations Inc.',
-    //     period: '2020 - Present',
-    //     description: 'Led a team of developers in building scalable web applications. Implemented CI/CD pipelines and improved performance by 40%.',
-    //     technologies: ['React', 'Node.js', 'AWS', 'MongoDB']
-    //   },
+      {
+        id: 1,
+        role: 'Full-Stack Developer(intern)',
+        company: 'Code Alpha Inc.',
+        period: '2025-oct-1 - 2025-oct-30',
+        description: 'Completing Given Tasks as Full-stack Developer',
+        technologies: ['React', 'Node.js','Express.js', 'MongoDB']
+      },
     //   {
     //     id: 2,
     //     role: 'Frontend Developer',
@@ -39,9 +39,9 @@ interface ExperienceItem {
     return (
       <section id="experience" className="py-20 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
         <div className="container mx-auto px-6">
-          {/* <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-white mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-white mb-16">
             Work Experience
-          </h2> */}
+          </h2>
           
           <div className="relative">
             {/* Timeline line */}
