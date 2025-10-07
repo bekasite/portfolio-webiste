@@ -14,7 +14,7 @@ export default function Experience() {
       id: 1,
       role: "Full-Stack Developer(intern)",
       company: "Code Alpha Inc.",
-      period: "2025-oct-1 - 2025-oct-30",
+      period: "October 1-30, 2025",
       description: "Completing Given Tasks as Full-stack Developer",
       technologies: ["React", "Node.js", "Express.js", "MongoDB"],
     },
@@ -22,7 +22,7 @@ export default function Experience() {
         id: 2,
         role: 'Frontend Dev',
         company: 'Addis TeenCode Hackathon',
-        period: 'June 8-9, 2024,',
+        period: 'June 8-9, 2024',
         description: 'Collaborated with a dynamic team to develop innovative solutions during an intensive 48-hour hackathon, showcasing rapid prototyping and creative problem-solving skills.',
         technologies: ['React']
       },
@@ -88,7 +88,7 @@ export default function Experience() {
                 </div>
 
                 {/* Timeline dot */}
-                <div className="flex items-center justify-center md:w-1/2 relative">
+                <div className="flex items-center justify-center md:w1/2 relative">
                   <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-blue-600 dark:bg-blue-400 border-4 border-white dark:border-gray-900 z-10"></div>
                 </div>
 

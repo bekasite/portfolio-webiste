@@ -15,10 +15,11 @@ interface Skill {
       { name: 'Next.js', level: 85, category: 'frontend' },
       { name: 'Node.js', level: 82, category: 'backend' },
       { name: 'Express', level: 80, category: 'backend' },
-      { name: 'Python', level: 75, category: 'backend' },
+      // { name: 'Python', level: 75, category: 'backend' },
       { name: 'MongoDB', level: 78, category: 'database' },
-      { name: 'PostgreSQL', level: 75, category: 'database' },
+      { name: 'MySQL', level: 75, category: 'database' },
       { name: 'AWS', level: 70, category: 'devops' },
+      { name: 'Render', level:100, category:'devops'},
       { name: 'Docker', level: 72, category: 'devops' },
       { name: 'Git', level: 85, category: 'tools' },
     ];

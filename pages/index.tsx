@@ -65,7 +65,7 @@ export default function Home() {
       <Head>
         <title>Beka Temesgen - Full Stack Developer</title>
         <meta name="description" content="Full Stack Developer Portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="../logo.png" />
       </Head>
 
       <main>
