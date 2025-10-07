@@ -46,8 +46,8 @@ export default function Projects() {
       image: "../srms.png",
       tags: ["node", "express", "jwt", "MongoDB"],
       category: "fullstack",
-      // link1: "#",
-      link2: "https://github.com/bekasite/",
+      link1: "#",
+      link2: "https://github.com/bekasite/"
     },
     {
       id: 4,
