@@ -31,7 +31,7 @@ export default function Projects() {
       image: '../netlfix.jpg',
       tags: ['next.js', 'next-auth', 'tailwind', 'the-movieDB'],
       category: 'fullstack',
-      link: '#'
+      link: 'https://bt-netflix-clone.vercel.app/'
     },
     {
       id: 3,
@@ -44,13 +44,22 @@ export default function Projects() {
     },
    
     {
-      id: 6,
+      id: 4,
       title: 'Portfolio Website',
       description: 'Responsive portfolio website with dark mode and animations.',
       image: '../portfolio.png',
       tags: ['nextjs', 'tailwind', 'framer'],
       category: 'frontend',
       link: '#'
+    },
+    {
+      id: 5,
+      title: 'Chapa payment integrated Ecommerce site',
+      description: 'A fully functional e-commerce website with Chapa payment integration built with Next.js, React, and Tailwind CSS.',
+      image: '../chapa.png',
+      tags: ['nextjs', 'chapa api', 'tailwind'],
+      category: 'fullstack',
+      link: 'https://ecommerce-chapa-integration.vercel.app/'
     },
   ];
 
