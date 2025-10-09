@@ -66,6 +66,8 @@ export default function Home() {
         <title>Beka Temesgen - Full Stack Developer</title>
         <meta name="description" content="Full Stack Developer Portfolio" />
         <link rel="icon" href="../logo.png" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7194352745925271"
+     crossorigin="anonymous"></script>
       </Head>
 
       <main>
