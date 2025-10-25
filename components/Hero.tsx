@@ -63,13 +63,31 @@ export default function Hero() {
           </div>
         </div>
         <div className="md:w-2/5 flex justify-center">
-          <div className="relative w-64 h-64 md:w-80 md:h-80 bg-blue-600 dark:bg-blue-700 rounded-full overflow-hidden shadow-xl">
-            {/* Updated profile picture with proper styling */}
-            <img 
-              src="/profile.png" 
-              alt="Beka - Full Stack Developer"
-              className="w-full h-full object-cover"
-            />
+          {/* Enhanced profile picture with cool animations and shadows */}
+          <div className="relative group">
+            {/* Outer glowing ring */}
+            <div className="absolute -inset-4 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full opacity-0 group-hover:opacity-20 blur-xl transition-all duration-500 animate-pulse"></div>
+            
+            {/* Animated border gradient */}
+            <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 rounded-full opacity-75 group-hover:opacity-100 transition-opacity duration-300 animate-spin-slow">
+              <div className="absolute inset-[3px] bg-white dark:bg-gray-800 rounded-full"></div>
+            </div>
+            
+            {/* Main profile image container */}
+            <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w- lg:h-90 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full overflow-hidden shadow-2xl group-hover:shadow-3xl transition-all duration-500 scale- group-hover:scale-105">
+              <img 
+                src="/profile.png" 
+                alt="Beka - Full Stack Developer"
+                className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+              />
+              
+              {/* Shine overlay effect */}
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform -skew-x-12 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
+            </div>
+            
+            {/* Floating elements */}
+            <div className="absolute -top-2 -right-2 w-6 h-6 bg-yellow-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-bounce transition-opacity duration-500 delay-200"></div>
+            <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-green-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-bounce transition-opacity duration-500 delay-300"></div>
           </div>
         </div>
       </div>
