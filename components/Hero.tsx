@@ -41,7 +41,7 @@ export default function Hero() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 dark:text-white mb-4">
             Hi, I&apos;m <span className="text-blue-600 dark:text-blue-400">Beka</span>
           </h1>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-700 dark:text-gray-300 mb-6 h-12">
+         <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-700 dark:text-gray-300 mb-6 h-12">
             {displayText}<span className="animate-pulse">|</span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-lg">
@@ -64,11 +64,12 @@ export default function Hero() {
         </div>
         <div className="md:w-2/5 flex justify-center">
           <div className="relative w-64 h-64 md:w-80 md:h-80 bg-blue-600 dark:bg-blue-700 rounded-full overflow-hidden shadow-xl">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-700 dark:from-blue-600 dark:to-blue-900 flex items-center justify-center">
-              <svg className="w-40 h-40 text-white opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-              </svg>
-            </div>
+            {/* Updated profile picture with proper styling */}
+            <img 
+              src="/profile.png" 
+              alt="Beka - Full Stack Developer"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>
