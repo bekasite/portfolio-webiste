@@ -11,11 +11,11 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 // Add type for component props if needed
-interface HomeProps {
-  // Add any props you might need in the future
-}
+// interface HomeProps {
+//   // Add any props you might need in the future
+// }
 
-export default function Home(props: HomeProps) {
+export default function Home(/* props: HomeProps */) {
   const [darkMode, setDarkMode] = useState<boolean>(false);
   const [mounted, setMounted] = useState<boolean>(false);
 
