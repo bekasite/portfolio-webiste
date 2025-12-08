@@ -21,6 +21,17 @@ export default function Projects() {
   const projects: Project[] = [
     {
       id: 1,
+      title: "AAU-BAZAR",
+      description: "E-commerce platform specifically designed for Addis Ababa University students to purchase products at discounted prices. Features include user authentication, product browsing by categories, shopping cart functionality, and special student discounts. Built with a focus on accessibility and student-friendly pricing.",
+      image: "/aau-bazar.png", // You'll need to add this image to your public folder
+      tags: ["Next.js", "node.js", "framer-motion","carousel", "tailwind", "cloudinary","express", "mongodb", "jwt", "e-commerce"],
+      category: "fullstack",
+      link1: "https://aau-bazar.vercel.app", // Add your live demo link here
+      link2: "https://github.com/bekasite/", // Add your GitHub link here
+    },
+    {
+
+      id: 2,
       title: "Amazon Clone",
       description: "A full-stack e-commerce clone with React, Stripe, and FakeStoreAPI. This project includes user authentication, product catalog, shopping cart, and secure payment processing with Stripe integration. Built with modern React patterns and Firebase for backend services.",
       image: "/amazon.png",
@@ -30,7 +41,7 @@ export default function Projects() {
       link2: "https://github.com/bekasite/amazon-clone-full-stack-",
     },
     {
-      id: 2,
+      id: 3,
       title: "Netflix Clone",
       description: "A full-stack web application to watch movie trailers using API from The Movie DB. Features include user authentication, movie browsing by categories, search functionality, and trailer playback. Implemented with Next.js for optimal performance and SEO.",
       image: "../netlfix.jpg",
@@ -40,7 +51,7 @@ export default function Projects() {
       link2: "https://github.com/bekasite/netflix-clone",
     },
     {
-      id: 3,
+      id: 4,
       title: "SRMS",
       description: "A comprehensive student record management system that generates certificates for each student and provides detailed yearly statistical reports. Features include admin dashboard, student profiling, automated certificate generation, and data analytics with visual charts.",
       image: "../srms.png",
@@ -50,7 +61,7 @@ export default function Projects() {
       link2: "https://github.com/bekasite/"
     },
     {
-      id: 4,
+      id: 5,
       title: "Portfolio Website",
       description: "A fully responsive portfolio website with dark mode toggle and smooth animations. Built with modern design principles featuring gradient backgrounds, interactive elements, and optimized performance. Includes contact forms and project showcases.",
       image: "../portfolio.png",
@@ -60,7 +71,7 @@ export default function Projects() {
       link2: "https://github.com/bekasite/portfolio-webiste",
     },
     {
-      id: 5,
+      id: 6,
       title: "Chapa Payment E-commerce",
       description: "A fully functional e-commerce website with Chapa payment integration. Features include product management, user cart, wishlist, order tracking, and secure payment processing. Built with Next.js for server-side rendering and optimized performance.",
       image: "../chapa.png",
