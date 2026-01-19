@@ -112,6 +112,16 @@ export default function Projects() {
       link1: "https://ecommerce-chapa-integration.vercel.app/",
       link2: "https://github.com/bekasite/ecommerce-chapa-integration",
     },
+    {
+      id: 9,
+      title: "Vendrop",
+      description: "Developing a full-stack mobile marketplace connecting verified traders with buyers (launching soon)\n•Implemented secure ID verification for traders using document upload and backend validation",
+      image: "/vendrop.png",
+      tags: ["flutter", "nextjs", "mongodb", "cloudinary"],
+      category: "apps",
+      link1: "#",
+      link2: "#",
+    },
   ];
 
   const filters = [
@@ -119,6 +129,7 @@ export default function Projects() {
     { id: "frontend", name: "Frontend" },
     { id: "backend", name: "Backend" },
     { id: "fullstack", name: "Full Stack" },
+    { id: "apps",  name: "Mobile Apps" }
   ];
 
   const featuredProjects = projects.filter(project => project.featured);
