@@ -10,6 +10,7 @@
     "css": "tailwindcss --input ./styles/globals.css --output ./styles/output.css --watch"
   },
   "dependencies": {
+    "framer-motion": "^12.27.1",
     "next": "^16.0.8",
     "react": "19.1.0",
     "react-dom": "19.1.0",

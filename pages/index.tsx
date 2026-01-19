@@ -9,6 +9,7 @@ import Projects from "../components/Projects";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import CVViewer from "../components/CVViewer";
 
 // Add type for component props if needed
 // interface HomeProps {
@@ -102,6 +103,7 @@ export default function Home(/* props: HomeProps */) {
         <About />
         <Skills />
         <Projects />
+        <CVViewer />
         <Experience />
         <Contact />
         <Footer />
