@@ -36,7 +36,7 @@ export default function Projects() {
       complexity: 4
     },
     {
-      id: 2,
+      id: 3,
       title: "Amazon Clone",
       description: "A full-stack e-commerce clone with React, Stripe, and FakeStoreAPI. This project includes user authentication, product catalog, shopping cart, and secure payment processing with Stripe integration. Built with modern React patterns and Firebase for backend services.",
       image: "/amazon.png",
@@ -48,7 +48,7 @@ export default function Projects() {
       complexity: 4
     },
     {
-      id: 3,
+      id: 5,
       title: "Netflix Clone",
       description: "A full-stack web application to watch movie trailers using API from The Movie DB. Features include user authentication, movie browsing by categories, search functionality, and trailer playback. Implemented with Next.js for optimal performance and SEO.",
       image: "/netlfix.jpg",
@@ -83,7 +83,7 @@ export default function Projects() {
       complexity: 4
     },
     {
-      id: 6,
+      id: 2,
       title: "SRMS",
       description: "A comprehensive student record management system that generates certificates for each student and provides detailed yearly statistical reports. Features include admin dashboard, student profiling, automated certificate generation, and data analytics with visual charts.",
       image: "/srms.png",
@@ -113,7 +113,7 @@ export default function Projects() {
       link2: "https://github.com/bekasite/ecommerce-chapa-integration",
     },
     {
-      id: 9,
+      id: 3,
       title: "Vendrop",
       description: "Developing a full-stack mobile marketplace connecting verified traders with buyers (launching soon)\n•Implemented secure ID verification for traders using document upload and backend validation",
       image: "/vendrop.png",
