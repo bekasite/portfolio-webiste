@@ -51,7 +51,7 @@ export default function Projects() {
       id: 3,
       title: "Netflix Clone",
       description: "A full-stack web application to watch movie trailers using API from The Movie DB. Features include user authentication, movie browsing by categories, search functionality, and trailer playback. Implemented with Next.js for optimal performance and SEO.",
-      image: "/netflix.jpg",
+      image: "/netlfix.jpg",
       tags: ["next.js", "next-auth", "tailwind", "the-movieDB"],
       category: "fullstack",
       link1: "https://bt-netflix-clone.vercel.app/",
@@ -63,7 +63,7 @@ export default function Projects() {
       id: 4,
       title: "LinkedIn Rental Platform",
       description: "A Next.js SaaS platform for monetizing LinkedIn accounts with bank-level security, real-time earnings dashboard, and verified partner system. Features include encryption, payout processing, and admin analytics.",
-      image: "/linkedin-platform.png", // Add this image
+      image: "/linkedin\.png", // Add this image
       tags: ["next.js", "node.js", "express", "mongodb", "jwt", "encryption", "SaaS"],
       category: "fullstack",
       link1: "https://linkedin-rental.vercel.app/",
