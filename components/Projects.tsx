@@ -36,7 +36,7 @@ export default function Projects() {
       complexity: 4
     },
     {
-      id: 3,
+      id: 2,
       title: "Amazon Clone",
       description: "A full-stack e-commerce clone with React, Stripe, and FakeStoreAPI. This project includes user authentication, product catalog, shopping cart, and secure payment processing with Stripe integration. Built with modern React patterns and Firebase for backend services.",
       image: "/amazon.png",
@@ -44,11 +44,10 @@ export default function Projects() {
       category: "fullstack",
       link1: "https://bt-amazon.netlify.app/",
       link2: "https://github.com/bekasite/amazon-clone-full-stack-",
-      featured: true,
-      complexity: 4
+      
     },
     {
-      id: 5,
+      id: 3,
       title: "Netflix Clone",
       description: "A full-stack web application to watch movie trailers using API from The Movie DB. Features include user authentication, movie browsing by categories, search functionality, and trailer playback. Implemented with Next.js for optimal performance and SEO.",
       image: "/netlfix.jpg",
@@ -56,7 +55,7 @@ export default function Projects() {
       category: "fullstack",
       link1: "https://bt-netflix-clone.vercel.app/",
       link2: "https://github.com/bekasite/netflix-clone",
-      featured: true,
+      
       complexity: 3
     },
     {
@@ -83,14 +82,16 @@ export default function Projects() {
       complexity: 4
     },
     {
-      id: 2,
+      id: 6,
       title: "SRMS",
       description: "A comprehensive student record management system that generates certificates for each student and provides detailed yearly statistical reports. Features include admin dashboard, student profiling, automated certificate generation, and data analytics with visual charts.",
       image: "/srms.png",
       tags: ["node", "express", "jwt", "MongoDB"],
       category: "fullstack",
       link1: "#",
-      link2: "https://github.com/bekasite/"
+      link2: "https://github.com/bekasite/",
+      featured: true,
+      complexity: 4
     },
     {
       id: 7,
@@ -113,7 +114,7 @@ export default function Projects() {
       link2: "https://github.com/bekasite/ecommerce-chapa-integration",
     },
     {
-      id: 3,
+      id: 9,
       title: "Vendrop",
       description: "Developing a full-stack mobile marketplace connecting verified traders with buyers (launching soon)\n•Implemented secure ID verification for traders using document upload and backend validation",
       image: "/vendrop.png",
@@ -121,6 +122,8 @@ export default function Projects() {
       category: "apps",
       link1: "#",
       link2: "#",
+      featured: true,
+      complexity: 5
     },
   ];
 
