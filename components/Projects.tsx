@@ -129,7 +129,7 @@ export default function Projects() {
       id: 10,
       title: "HDMXperts",
       description: "Enterprise platform focused on getting the right experts without procurement mess. HDMXperts delivers training, consulting, and research through a fully managed model with no bidding, no direct negotiation, and no delivery guesswork.",
-      image: "/portfolio.png",
+      image: "/hdm.png",
       tags: ["next.js", "typescript", "enterprise", "consulting", "managed services"],
       category: "fullstack",
       link1: "https://2nd.hdmxperts.com",
