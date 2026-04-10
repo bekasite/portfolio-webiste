@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  @apply bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300;
+  @apply bg-brand-primary-50 dark:bg-brand-primary-900 text-brand-primary-800 dark:text-gray-100 transition-colors duration-300;
 }
 
 /* Custom scrollbar */
@@ -18,35 +18,39 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-gray-100 dark:bg-gray-800;
+  @apply bg-brand-primary-100 dark:bg-brand-primary-800;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-gray-400 dark:bg-gray-600 rounded-full;
+  @apply bg-brand-primary-400 dark:bg-brand-primary-600 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-gray-500 dark:bg-gray-500;
+  @apply bg-brand-secondary-500 dark:bg-brand-secondary-400;
 }
+
 .form-success {
-  background: rgba(16, 185, 129, 0.1);
-  border: 1px solid #10b981;
-  border-radius: 12px;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  display: flex;
-  align-items: center;
-  animation: fadeIn 0.5s;
+  @apply bg-brand-secondary-50 border border-brand-secondary-300 rounded-xl p-4 mb-6 flex items-center;
 }
 
 .form-success i {
-  color: var(--success);
-  font-size: 1.5rem;
-  margin-right: 0.75rem;
+  @apply text-brand-secondary-600 text-2xl mr-3;
 }
 
 .form-success p {
-  margin: 0;
-  color: var(--success);
-  font-weight: 500;
+  @apply m-0 text-brand-primary-800 dark:text-brand-secondary-200 font-medium;
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 rounded-lg font-semibold text-white bg-brand-primary-700 hover:bg-brand-primary-800 shadow-lg shadow-brand-primary-800/20 transition-all duration-300;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 rounded-lg font-semibold text-brand-primary-900 bg-brand-secondary-400 hover:bg-brand-secondary-500 shadow-lg shadow-brand-secondary-500/20 transition-all duration-300;
+  }
+
+  .card-brand {
+    @apply bg-white dark:bg-brand-primary-800 border border-brand-primary-100 dark:border-brand-primary-700 rounded-xl shadow-lg;
+  }
 }

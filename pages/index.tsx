@@ -40,10 +40,10 @@ export default function Home(/* props: HomeProps */) {
     // Apply the theme class to the document element
     if (initialDarkMode) {
       document.documentElement.classList.add("dark");
-      document.documentElement.style.backgroundColor = "#111827"; // gray-900
+      document.documentElement.style.backgroundColor = "#0f1d33";
     } else {
       document.documentElement.classList.remove("dark");
-      document.documentElement.style.backgroundColor = "#ffffff"; // white
+      document.documentElement.style.backgroundColor = "#eef3fa";
     }
   }, []);
 
@@ -53,11 +53,11 @@ export default function Home(/* props: HomeProps */) {
 
     if (newDarkMode) {
       document.documentElement.classList.add("dark");
-      document.documentElement.style.backgroundColor = "#111827"; // gray-900
+      document.documentElement.style.backgroundColor = "#0f1d33";
       localStorage.setItem("theme", "dark");
     } else {
       document.documentElement.classList.remove("dark");
-      document.documentElement.style.backgroundColor = "#ffffff"; // white
+      document.documentElement.style.backgroundColor = "#eef3fa";
       localStorage.setItem("theme", "light");
     }
   };
@@ -65,8 +65,8 @@ export default function Home(/* props: HomeProps */) {
   // Loading state
   if (!mounted) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-white dark:bg-gray-900">
-        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-600"></div>
+      <div className="flex items-center justify-center min-h-screen bg-brand-primary-50 dark:bg-brand-primary-900">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-brand-secondary-500"></div>
       </div>
     );
   }
@@ -97,7 +97,7 @@ export default function Home(/* props: HomeProps */) {
         crossOrigin="anonymous"
       />
 
-      <main className="bg-white dark:bg-gray-900 transition-colors duration-300">
+      <main className="bg-brand-primary-50 dark:bg-brand-primary-900 transition-colors duration-300">
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Hero />
         <About />
