@@ -51,7 +51,7 @@ export default function Projects() {
       result: "Reduced consultant onboarding time from 3 weeks to 48 hours",
       tech: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind"],
       status: 'mvp',
-      link: "https://2nd.hdmxperts.com",
+      link: "https://hdmxperts.com",
       image: "/hdm.png"
     },
     {
