@@ -1,92 +1,50 @@
-import { useState } from "react";
-
 // components/Skills.tsx
-interface Skill {
-    name: string;
-    level: number;
-    category: string;
-  }
-  
-  export default function Skills() {
-    const skills: Skill[] = [
-      { name: 'JavaScript', level: 90, category: 'frontend' },
-      { name: 'TypeScript', level: 85, category: 'frontend' },
-      { name: 'React', level: 88, category: 'frontend' },
-      { name: 'Next.js', level: 85, category: 'frontend' },
-      { name: 'Node.js', level: 82, category: 'backend' },
-      { name: 'Express', level: 80, category: 'backend' },
-      // { name: 'Python', level: 75, category: 'backend' },
-      { name: 'MongoDB', level: 78, category: 'database' },
-      { name: 'MySQL', level: 75, category: 'database' },
-      { name: 'AWS', level: 70, category: 'devops' },
-      { name: 'Render', level:100, category:'devops'},
-      { name: 'Docker', level: 72, category: 'devops' },
-      { name: 'Git', level: 85, category: 'tools' },
-    ];
-  
-    const categories = [
-      { id: 'all', name: 'All Skills' },
-      { id: 'frontend', name: 'Frontend' },
-      { id: 'backend', name: 'Backend' },
-      { id: 'database', name: 'Database' },
-      { id: 'devops', name: 'DevOps' },
-      { id: 'tools', name: 'Tools' },
-    ];
-  
-    const [activeFilter, setActiveFilter] = useState('all');
-  
-    const filteredSkills = activeFilter === 'all' 
-      ? skills 
-      : skills.filter(skill => skill.category === activeFilter);
-  
-    return (
-      <section id="skills" className="py-20 bg-brand-primary-100 dark:bg-brand-primary-800 transition-colors duration-300">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-brand-primary-900 dark:text-white mb-4">
-            My Skills
-          </h2>
-          <p className="text-center text-brand-primary-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-            I&apos;ve worked with a variety of technologies and continue to expand my skill set.
-          </p>
-          
-          {/* Filters */}
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {categories.map(category => (
-              <button
-                key={category.id}
-                onClick={() => setActiveFilter(category.id)}
-                className={`px-4 py-2 rounded-full font-medium transition-colors ${
-                  activeFilter === category.id
-                    ? 'bg-brand-primary-700 text-white'
-                    : 'bg-white dark:bg-brand-primary-900 text-brand-primary-700 dark:text-gray-300 hover:bg-brand-secondary-50 dark:hover:bg-brand-primary-700'
-                }`}
-              >
-                {category.name}
-              </button>
-            ))}
+export default function Skills() {
+  const skillCategories = [
+    {
+      title: "Core Stack",
+      skills: ["JavaScript (ES6+)", "TypeScript", "Node.js", "Next.js", "React"]
+    },
+    {
+      title: "Backend & Systems",
+      skills: ["Express.js", "RESTful APIs", "GraphQL", "PostgreSQL", "MongoDB", "Redis"]
+    },
+    {
+      title: "Infrastructure & DevOps",
+      skills: ["AWS", "Docker", "CI/CD Pipelines", "Nginx", "GitHub Actions", "Vercel"]
+    },
+    {
+      title: "Tools & Methodologies",
+      skills: ["Git", "Agile/Scrum", "Unit Testing (Jest)", "Design Patterns", "Figma"]
+    }
+  ];
+
+  return (
+    <div>
+      <div className="mb-12">
+        <h2 className="text-3xl font-bold text-enterprise-primary dark:text-white mb-2">Technical Competencies</h2>
+        <div className="h-1 w-20 bg-enterprise-secondary"></div>
+      </div>
+
+      <div className="grid md:grid-cols-2 gap-10">
+        {skillCategories.map((cat, idx) => (
+          <div key={idx} className="bg-white dark:bg-[#1A1F2E] p-8 border border-gray-100 dark:border-gray-800 rounded-lg">
+            <h3 className="text-lg font-bold text-enterprise-primary dark:text-white mb-6 border-b border-gray-100 dark:border-gray-800 pb-2">
+              {cat.title}
+            </h3>
+            <div className="flex flex-wrap gap-3">
+              {cat.skills.map((skill) => (
+                <span 
+                  key={skill} 
+                  className="px-4 py-2 bg-gray-50 dark:bg-gray-800 text-enterprise-primary dark:text-gray-300 text-sm font-medium rounded-md border border-gray-100 dark:border-gray-700 transition-colors hover:border-enterprise-secondary"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
           </div>
-          
-          {/* Skills Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredSkills.map((skill, index) => (
-              <div 
-                key={index} 
-                className="card-brand p-6 transition-transform duration-300 hover:scale-105"
-              >
-                <div className="flex justify-between mb-2">
-                  <span className="text-brand-primary-800 dark:text-white font-medium">{skill.name}</span>
-                  <span className="text-brand-secondary-600 dark:text-brand-secondary-300">{skill.level}%</span>
-                </div>
-                <div className="h-2 bg-brand-primary-100 dark:bg-brand-primary-700 rounded-full overflow-hidden">
-                  <div 
-                    className="h-full bg-brand-secondary-500 dark:bg-brand-secondary-400 rounded-full transition-all duration-500"
-                    style={{ width: `${skill.level}%` }}
-                  ></div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-    );
-  }
+        ))}
+      </div>
+    </div>
+  );
+}
