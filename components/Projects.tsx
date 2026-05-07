@@ -62,6 +62,7 @@ export default function Projects() {
       result: "100% reduction in paper waste and 70% faster result dissemination",
       tech: ["React", "Node.js", "MySQL", "Tailwind"],
       status: 'live',
+      link: "https://student-record-managment-system.vercel.app",
       github: "https://github.com/bekasite",
       image: "/srms.png"
     },
