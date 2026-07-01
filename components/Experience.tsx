@@ -41,6 +41,17 @@ export default function Experience() {
         "Optimized React component tree reducing initial bundle size by 45%",
         "Implemented accessible UI components following WCAG 2.1 guidelines"
       ],
+    },
+    {
+      id: 4,
+      role: "Tech Intern – ERP Payment Integration",
+      company: "ERP Systems Team",
+      period: "2024",
+      bullets: [
+        "Integrated Chapa payment gateway into ERP modules enabling digital invoice settlements",
+        "Developed payment reconciliation workflows reducing manual accounting effort by 60%",
+        "Collaborated on backend API design for seamless transaction logging and receipt generation"
+      ],
     }
   ];
 

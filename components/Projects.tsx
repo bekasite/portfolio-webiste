@@ -40,8 +40,8 @@ export default function Projects() {
       result: "100% reduction in paper waste and 70% faster result dissemination",
       tech: ["React", "Node.js", "MySQL", "Tailwind"],
       status: 'live',
-      link: "https://student-record-managment-system.vercel.app",
-      github: "https://github.com/bekasite",
+      // link: "https://student-record-managment-system.vercel.app",
+      link: "https://srms.x-prime.dev",
       image: "/srms.png"
     },
     {
@@ -52,7 +52,7 @@ export default function Projects() {
       result: "Deployed as a full-stack monorepo serving customers, riders, and admin via web and mobile",
       tech: ["Next.js", "Express", "MongoDB", "Socket.io", "Flutter", "Docker"],
       status: 'mvp',
-      github: "https://github.com/bekasite"
+      // github: "https://github.com/bekasite"
     },
     {
       id: 4,
@@ -62,17 +62,17 @@ export default function Projects() {
       result: "Eliminated subscription costs and operational overhead while maintaining full control over team email with custom domain and admin approval routing",
       tech: ["Next.js", "Prisma", "MySQL", "NextAuth", "Resend"],
       status: 'live',
-      github: "https://github.com/bekasite"
+      link: "https://mail.x-prime.dev",
     },
     {
       id: 5,
       title: "AAU Bazar – Student E-commerce",
       problem: "AAU students paid 25% above market due to lack of student‑verified vendors",
       solution: "Built vendor verification + student email domain check",
-      result: "1,200 users in 3 months, avg 18% savings",
+      result: "avg 18% savings",
       tech: ["Next.js", "Node.js", "MongoDB", "JWT"],
       status: 'live',
-      link: "https://aau-bazar.vercel.app",
+      // link: "https://aau-bazar.vercel.app",
       image: "/aau-bazar.png"
     },
     {
