@@ -66,13 +66,13 @@ export default function Sidebar({ darkMode, toggleDarkMode }: SidebarProps) {
           <div className="space-y-4">
             <div className="flex items-center space-x-3 text-gray-600 dark:text-gray-400">
               <FaEnvelope className="text-enterprise-secondary" />
-              <span className="text-sm truncate">bekatemesgen0@gmail.com</span>
+              <span className="text-sm truncate">beka@x-prime.dev</span>
             </div>
             <div className="flex space-x-4">
               <a href="https://github.com/bekasite" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-enterprise-primary dark:hover:text-white transition-colors">
                 <FaGithub size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-enterprise-primary dark:hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/beka-temesgen-170089403/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-enterprise-primary dark:hover:text-white transition-colors">
                 <FaLinkedin size={20} />
               </a>
             </div>
