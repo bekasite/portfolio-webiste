@@ -23,28 +23,6 @@ export default function Projects() {
   const caseStudies: CaseStudy[] = [
     {
       id: 1,
-      title: "AAU Bazar – Student E-commerce",
-      problem: "AAU students paid 25% above market due to lack of student‑verified vendors",
-      solution: "Built vendor verification + student email domain check",
-      result: "1,200 users in 3 months, avg 18% savings",
-      tech: ["Next.js", "Node.js", "MongoDB", "JWT"],
-      status: 'live',
-      link: "https://aau-bazar.vercel.app",
-      image: "/aau-bazar.png"
-    },
-    {
-      id: 2,
-      title: "LinkedIn Rental SaaS",
-      problem: "Manual management of shared corporate accounts led to security risks and payout delays",
-      solution: "Automated encryption layer + real-time earnings dashboard",
-      result: "Reduced manual overhead by 80%, 0% security breaches in 12 months",
-      tech: ["Next.js", "Express", "Encryption API", "Redux"],
-      status: 'live',
-      link: "https://linkedin-rental.vercel.app/",
-      image: "/linkedin.png"
-    },
-    {
-      id: 3,
       title: "HDMXperts – Managed Services",
       problem: "Enterprises struggled with procurement friction when hiring niche consultants",
       solution: "End-to-end managed service platform with zero-bidding model",
@@ -55,7 +33,7 @@ export default function Projects() {
       image: "/hdm.png"
     },
     {
-      id: 4,
+      id: 2,
       title: "SRMS – Student Result Management",
       problem: "Paper-based result distribution caused delays and errors in academic record tracking",
       solution: "Developed a centralized digital portal for secure grade entry and real-time student access",
@@ -67,7 +45,39 @@ export default function Projects() {
       image: "/srms.png"
     },
     {
+      id: 3,
+      title: "Bisho – Food Delivery Platform",
+      problem: "Local restaurants struggled to reach customers and manage deliveries efficiently across multiple channels",
+      solution: "Built a multi-platform delivery ecosystem with real-time tracking, admin dashboard, and customer/rider mobile apps",
+      result: "Deployed as a full-stack monorepo serving customers, riders, and admin via web and mobile",
+      tech: ["Next.js", "Express", "MongoDB", "Socket.io", "Flutter", "Docker"],
+      status: 'mvp',
+      github: "https://github.com/bekasite"
+    },
+    {
+      id: 4,
+      title: "AAU Bazar – Student E-commerce",
+      problem: "AAU students paid 25% above market due to lack of student‑verified vendors",
+      solution: "Built vendor verification + student email domain check",
+      result: "1,200 users in 3 months, avg 18% savings",
+      tech: ["Next.js", "Node.js", "MongoDB", "JWT"],
+      status: 'live',
+      link: "https://aau-bazar.vercel.app",
+      image: "/aau-bazar.png"
+    },
+    {
       id: 5,
+      title: "LinkedIn Rental SaaS",
+      problem: "Manual management of shared corporate accounts led to security risks and payout delays",
+      solution: "Automated encryption layer + real-time earnings dashboard",
+      result: "Reduced manual overhead by 80%, 0% security breaches in 12 months",
+      tech: ["Next.js", "Express", "Encryption API", "Redux"],
+      status: 'live',
+      link: "https://linkedin-rental.vercel.app/",
+      image: "/linkedin.png"
+    },
+    {
+      id: 6,
       title: "Chapa Payment Library",
       problem: "Developers lacked a simplified way to integrate Ethiopia's Chapa payment gateway into modern apps",
       solution: "Created an open-source wrapper and SDK for seamless API integration",
@@ -78,7 +88,7 @@ export default function Projects() {
       image: "/chapa.png"
     },
     {
-      id: 6,
+      id: 7,
       title: "Vendrop – Delivery Ecosystem",
       problem: "Local vendors struggled to track deliveries and manage couriers efficiently",
       solution: "Built a real-time tracking dashboard with automated courier assignment",
@@ -89,7 +99,7 @@ export default function Projects() {
       image: "/vendrop.png"
     },
     {
-      id: 7,
+      id: 8,
       title: "Amazon Full-Stack Clone",
       problem: "Demonstrating proficiency in complex e-commerce flows including cart and checkout",
       solution: "Built a high-fidelity replica with Stripe integration and Firebase authentication",
@@ -100,7 +110,7 @@ export default function Projects() {
       image: "/amazon.png"
     },
     {
-      id: 8,
+      id: 9,
       title: "Netflix UI Prototype",
       problem: "Visualizing large datasets of movies with a premium, smooth user experience",
       solution: "Integrated TMDB API with Framer Motion for high-performance animations",
@@ -109,6 +119,16 @@ export default function Projects() {
       status: 'live',
       github: "https://github.com/bekasite",
       image: "/netlfix.jpg"
+    },
+    {
+      id: 10,
+      title: "X-Prime Mail – Serverless Email",
+      problem: "Google Workspace and Zoho wanted a recurring monthly subscription just to give my small team a branded @domain email system. Mail servers like Postfix required endless operational maintenance.",
+      solution: "Built a serverless alternative from scratch providing internal email with custom domain, strict admin approval flows, and consistent branded templates—all without running a traditional mail server",
+      result: "Eliminated subscription costs and operational overhead while maintaining full control over team email with custom domain and admin approval routing",
+      tech: ["Next.js", "Prisma", "MySQL", "NextAuth", "Resend"],
+      status: 'live',
+      github: "https://github.com/bekasite"
     }
   ];
 
