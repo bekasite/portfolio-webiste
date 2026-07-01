@@ -56,6 +56,16 @@ export default function Projects() {
     },
     {
       id: 4,
+      title: "X-Prime Mail – Serverless Email",
+      problem: "Google Workspace and Zoho wanted a recurring monthly subscription just to give my small team a branded @domain email system. Mail servers like Postfix required endless operational maintenance.",
+      solution: "Built a serverless alternative from scratch providing internal email with custom domain, strict admin approval flows, and consistent branded templates—all without running a traditional mail server",
+      result: "Eliminated subscription costs and operational overhead while maintaining full control over team email with custom domain and admin approval routing",
+      tech: ["Next.js", "Prisma", "MySQL", "NextAuth", "Resend"],
+      status: 'live',
+      github: "https://github.com/bekasite"
+    },
+    {
+      id: 5,
       title: "AAU Bazar – Student E-commerce",
       problem: "AAU students paid 25% above market due to lack of student‑verified vendors",
       solution: "Built vendor verification + student email domain check",
@@ -66,7 +76,7 @@ export default function Projects() {
       image: "/aau-bazar.png"
     },
     {
-      id: 5,
+      id: 6,
       title: "LinkedIn Rental SaaS",
       problem: "Manual management of shared corporate accounts led to security risks and payout delays",
       solution: "Automated encryption layer + real-time earnings dashboard",
@@ -77,7 +87,7 @@ export default function Projects() {
       image: "/linkedin.png"
     },
     {
-      id: 6,
+      id: 7,
       title: "Chapa Payment Library",
       problem: "Developers lacked a simplified way to integrate Ethiopia's Chapa payment gateway into modern apps",
       solution: "Created an open-source wrapper and SDK for seamless API integration",
@@ -88,7 +98,7 @@ export default function Projects() {
       image: "/chapa.png"
     },
     {
-      id: 7,
+      id: 8,
       title: "Vendrop – Delivery Ecosystem",
       problem: "Local vendors struggled to track deliveries and manage couriers efficiently",
       solution: "Built a real-time tracking dashboard with automated courier assignment",
@@ -99,7 +109,7 @@ export default function Projects() {
       image: "/vendrop.png"
     },
     {
-      id: 8,
+      id: 9,
       title: "Amazon Full-Stack Clone",
       problem: "Demonstrating proficiency in complex e-commerce flows including cart and checkout",
       solution: "Built a high-fidelity replica with Stripe integration and Firebase authentication",
@@ -110,7 +120,7 @@ export default function Projects() {
       image: "/amazon.png"
     },
     {
-      id: 9,
+      id: 10,
       title: "Netflix UI Prototype",
       problem: "Visualizing large datasets of movies with a premium, smooth user experience",
       solution: "Integrated TMDB API with Framer Motion for high-performance animations",
@@ -119,16 +129,6 @@ export default function Projects() {
       status: 'live',
       github: "https://github.com/bekasite",
       image: "/netlfix.jpg"
-    },
-    {
-      id: 10,
-      title: "X-Prime Mail – Serverless Email",
-      problem: "Google Workspace and Zoho wanted a recurring monthly subscription just to give my small team a branded @domain email system. Mail servers like Postfix required endless operational maintenance.",
-      solution: "Built a serverless alternative from scratch providing internal email with custom domain, strict admin approval flows, and consistent branded templates—all without running a traditional mail server",
-      result: "Eliminated subscription costs and operational overhead while maintaining full control over team email with custom domain and admin approval routing",
-      tech: ["Next.js", "Prisma", "MySQL", "NextAuth", "Resend"],
-      status: 'live',
-      github: "https://github.com/bekasite"
     }
   ];
 
