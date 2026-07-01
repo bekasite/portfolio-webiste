@@ -16,7 +16,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   try {
     await resend.emails.send({
-      from: `${name} <${email}>`,
+      from: 'Portfolio Contact <contact@x-prime.dev>',
+      replyTo: email,
       to: 'beka@x-prime.dev',
       subject: `Portfolio Inquiry from ${name}`,
       html: `
